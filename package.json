@@ -66,10 +66,11 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css -w"
+    "dev": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css -w",
+    "build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css --minify"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zacky Achmad",
   "license": "ISC",
-  "description": ""
+  "description": "Linktree TailwindCSS"
 }
